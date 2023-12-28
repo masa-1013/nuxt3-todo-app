@@ -1,19 +1,20 @@
 module.exports = {
   env: {
     es2021: true,
-    node: true,
+    node: true
   },
   extends: [
-    "plugin:vue/vue3-recommended",
-    "eslint:recommended",
-    "@nuxtjs/eslint-config-typescript",
+    'plugin:vue/vue3-recommended',
+    'eslint:recommended',
+    '@nuxtjs/eslint-config-typescript',
+    '@vue/prettier'
   ],
   overrides: [],
-  parser: "@typescript-eslint/parser",
+  parser: '@typescript-eslint/parser',
   parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
+    ecmaVersion: 'latest',
+    sourceType: 'module'
   },
-  plugins: ["vue", "@typescript-eslint"],
-  rules: {},
-};
+  plugins: ['vue', '@typescript-eslint'],
+  rules: {}
+}
